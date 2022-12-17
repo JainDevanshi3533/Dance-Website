@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+    margin : 15px 0;
+}
+
+.con{
+    height:72vh;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myInput{
+    height: auto;
+    width:60%;
+    margin:5px;
+    padding:3px;
+    font-size: 1.11rem;
+    border-radius: 10px;
+    outline: none;
+}
+
+.btn{
+    font-size: 1.2rem;
+    padding:10px;
+    margin:20px;
+    border-radius: 8px;
+    cursor:pointer;
+}

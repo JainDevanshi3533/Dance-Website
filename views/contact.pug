@@ -1,0 +1,17 @@
+extends base.pug
+
+block style 
+    style 
+        include ../static_f/style.css
+        include ../static_f/contact.css
+block content 
+    div.con
+        h1 Contact Us
+        form(action="/contact", method="post")
+            input(type="text", class="myInput", name="name", placeholder="Enter name")
+            input(type="text", class="myInput", name="phone", placeholder="Enter phone")
+            input(type="text", class="myInput", name="email", placeholder="Enter email")
+            input(type="text", class="myInput", name="address", placeholder="Enter address")
+            input(type="text", class="myInput", name="desc", placeholder="Enter description")
+            button(class="btn")
+                | Submit
